@@ -9,12 +9,12 @@ Summary:	Lingua::PT::Stemmer - Portuguese language stemming
 Summary(pl):	Lingua::PT::Stemmer - okre¶lanie rdzeni s³ów w jêzyku portugalskim
 Name:		perl-Lingua-PT-Stemmer
 Version:	0.01
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	perl >= 5.6.1
-BuildRequires:	rpm-perlprov >= 4.0.2-104
+BuildRequires:	perl >= 5.8
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -53,7 +53,8 @@ s³ów, co dla jêzyka portugalskiego.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -69,10 +70,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Lingua/PT
+%{perl_vendorlib}/Lingua/PT
 %{_mandir}/man3/*PT*
 
 %files -n perl-Lingua-GL-Stemmer
 %defattr(644,root,root,755)
-%{perl_sitelib}/Lingua/GL
+%{perl_vendorlib}/Lingua/GL
 %{_mandir}/man3/*GL*
