@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Lingua
-%define	pnam	PT-Stemmer
+%define		pdir	Lingua
+%define		pnam	PT-Stemmer
 Summary:	Lingua::PT::Stemmer - Portuguese language stemming
 Summary(pl):	Lingua::PT::Stemmer - okre¶lanie rdzeni s³ów w jêzyku portugalskim
 Name:		perl-Lingua-PT-Stemmer
