@@ -9,13 +9,13 @@ Summary:	Lingua::PT::Stemmer - Portuguese language stemming
 Summary(pl):	Lingua::PT::Stemmer - okre¶lanie rdzeni s³ów w jêzyku portugalskim
 Name:		perl-Lingua-PT-Stemmer
 Version:	0.01
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	74523d7da59dabbf561fa5cf60f98d02
-BuildRequires:	perl >= 5.8
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
