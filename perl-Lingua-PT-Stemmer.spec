@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	PT-Stemmer
 Summary:	Lingua::PT::Stemmer - Portuguese language stemming
-Summary(pl):	Lingua::PT::Stemmer - okre¶lanie rdzeni s³ów w jêzyku portugalskim
+Summary(pl.UTF-8):   Lingua::PT::Stemmer - okreÅ›lanie rdzeni sÅ‚Ã³w w jÄ™zyku portugalskim
 Name:		perl-Lingua-PT-Stemmer
 Version:	0.01
 Release:	3
@@ -25,15 +25,15 @@ This module implements a Portuguese stemming algorithm proposed in the
 paper "A Stemming Algorithm for the Portuguese Language" by V. Moreira
 and C. Huyck.
 
-%description -l pl
-Ten modu³ zawiera implementacjê algorytmu okre¶lania rdzeni s³ów dla
-jêzyka portugalskiego zaproponowany w artykule V. Moreira'y i C Huycka
+%description -l pl.UTF-8
+Ten moduÅ‚ zawiera implementacjÄ™ algorytmu okreÅ›lania rdzeni sÅ‚Ã³w dla
+jÄ™zyka portugalskiego zaproponowany w artykule V. Moreira'y i C Huycka
 "A Stemming Algorithm for the Portuguese Language" ("Algorytm
-okre¶lania rdzeni s³ów dla jêzyka portugalskiego").
+okreÅ›lania rdzeni sÅ‚Ã³w dla jÄ™zyka portugalskiego").
 
 %package -n perl-Lingua-GL-Stemmer
 Summary:	Lingua::GL::Stemmer - Galician language stemmer
-Summary(pl):	Lingua::GL::Stemmer - okre¶lanie rdzeni s³ów w jêzyku galicyjskim
+Summary(pl.UTF-8):   Lingua::GL::Stemmer - okreÅ›lanie rdzeni sÅ‚Ã³w w jÄ™zyku galicyjskim
 Group:		Development/Languages/Perl
 
 %description -n perl-Lingua-GL-Stemmer
@@ -43,13 +43,13 @@ differs greatly. Due to the morphological similarity between
 Portuguese and Galician, Portuguese stemming algorithm can be adopted
 to stem Galician texts.
 
-%description -n perl-Lingua-GL-Stemmer -l pl
-Jêzyk galicyjski jest gin±cym jêzykiem, którym mówi siê w pó³nocnej
-Hiszpanii. Jêzyk galicyjski jest morfologicznie podobny do
-portugalskiego lecz bardzo ró¿ni siê wymow±. Ze wzglêdu na
-podobieñstwo morfologiczne pomiêdzy potrugalskim a galicyjskim, mo¿na
-stosowaæ dla jêzyka galicyjskiego ten sam algorytm okre¶lania rdzeni
-s³ów, co dla jêzyka portugalskiego.
+%description -n perl-Lingua-GL-Stemmer -l pl.UTF-8
+JÄ™zyk galicyjski jest ginÄ…cym jÄ™zykiem, ktÃ³rym mÃ³wi siÄ™ w pÃ³Å‚nocnej
+Hiszpanii. JÄ™zyk galicyjski jest morfologicznie podobny do
+portugalskiego lecz bardzo rÃ³Å¼ni siÄ™ wymowÄ…. Ze wzglÄ™du na
+podobieÅ„stwo morfologiczne pomiÄ™dzy potrugalskim a galicyjskim, moÅ¼na
+stosowaÄ‡ dla jÄ™zyka galicyjskiego ten sam algorytm okreÅ›lania rdzeni
+sÅ‚Ã³w, co dla jÄ™zyka portugalskiego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
