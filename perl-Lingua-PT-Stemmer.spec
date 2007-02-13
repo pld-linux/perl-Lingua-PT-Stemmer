@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	PT-Stemmer
 Summary:	Lingua::PT::Stemmer - Portuguese language stemming
-Summary(pl.UTF-8):   Lingua::PT::Stemmer - określanie rdzeni słów w języku portugalskim
+Summary(pl.UTF-8):	Lingua::PT::Stemmer - określanie rdzeni słów w języku portugalskim
 Name:		perl-Lingua-PT-Stemmer
 Version:	0.01
 Release:	3
@@ -33,7 +33,7 @@ określania rdzeni słów dla języka portugalskiego").
 
 %package -n perl-Lingua-GL-Stemmer
 Summary:	Lingua::GL::Stemmer - Galician language stemmer
-Summary(pl.UTF-8):   Lingua::GL::Stemmer - określanie rdzeni słów w języku galicyjskim
+Summary(pl.UTF-8):	Lingua::GL::Stemmer - określanie rdzeni słów w języku galicyjskim
 Group:		Development/Languages/Perl
 
 %description -n perl-Lingua-GL-Stemmer
