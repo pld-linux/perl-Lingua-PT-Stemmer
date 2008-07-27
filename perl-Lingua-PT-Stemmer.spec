@@ -9,7 +9,7 @@ Summary:	Lingua::PT::Stemmer - Portuguese language stemming
 Summary(pl.UTF-8):	Lingua::PT::Stemmer - określanie rdzeni słów w języku portugalskim
 Name:		perl-Lingua-PT-Stemmer
 Version:	0.01
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
