@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Lingua
 %define		pnam	PT-Stemmer
+%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::PT::Stemmer - Portuguese language stemming
 Summary(pl.UTF-8):	Lingua::PT::Stemmer - określanie rdzeni słów w języku portugalskim
 Name:		perl-Lingua-PT-Stemmer
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	74523d7da59dabbf561fa5cf60f98d02
+URL:		http://search.cpan.org/dist/Lingua-PT-Stemmer/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
