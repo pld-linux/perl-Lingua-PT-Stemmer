@@ -4,7 +4,6 @@
 
 %define		pdir	Lingua
 %define		pnam	PT-Stemmer
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::PT::Stemmer - Portuguese language stemming
 Summary(pl.UTF-8):	Lingua::PT::Stemmer - określanie rdzeni słów w języku portugalskim
 Name:		perl-Lingua-PT-Stemmer
